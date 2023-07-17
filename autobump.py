@@ -8,7 +8,7 @@ def automate_browser():
     #firefox_options.add_argument("--headless")  # Run Firefox in headless mode (without opening a window)
     driver = webdriver.Firefox(options=firefox_options)
     
-    driver.get("https://disboard.org/server/bump/1063705551625797683")
+    driver.get("DISBOARD BUMP LINK")
     
     # Wait for the page to load (adjust the sleep time if needed)
     time.sleep(15)
