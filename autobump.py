@@ -7,7 +7,7 @@ def automate_browser():
     firefox_options = Options()
     #firefox_options.add_argument("--headless")  # Run Firefox in headless mode (without opening a window)
     driver = webdriver.Firefox(options=firefox_options)
-    
+    # Replace DISBOARD BUMP LINK with actual link
     driver.get("DISBOARD BUMP LINK")
     
     # Wait for the page to load (adjust the sleep time if needed)
